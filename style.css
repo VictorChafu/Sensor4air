@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    border: solid #FFFFFF;
+    border-width: 0 0 0.5px;
+}
+.logo img{
+    margin: 1rem;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+.navbar a{
+    color: white;
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.navbar a:hover{
+    background-color: rgb(22, 112, 197);
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    background-color: white;
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: rgb(22, 112, 197);
+  }
+
+.content{  /*esto es una configuracion de los content en general*/
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 100vh !important;
+    background: url(./img/pexels-sirirak-boonruangjak-907274.jpg)no-repeat center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.header .title{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin: 2rem;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-shadow: 0 0 20px black;
+}
+.header p{
+    margin: 20px;
+    color: white;
+    font-size: 16px;
+    text-shadow: 0 0 10px black;
+}
+.nosotros .title{
+    color: white;
+    margin: 2rem;
+    margin-bottom: 80px;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-shadow: 0 0 10px black;
+}
+
+.btn {
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px 50px;
+    color: white;
+    border: 2px solid rgb(22, 112, 197);
+    background-color: rgb(22, 112, 197);
+}
+
+.btn:hover{
+    background:none;
+}
+.btn-title{
+    display: flex;
+}
+.btn-title a{
+    margin: 0 10px;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.nosotros{ 
+    height: 100vh;
+    background-color: white;
+    /*background: linear-gradient( rgb(255, 255, 255), black);*/
+    padding: 78px 0;
+}
+
+.nosotros p{
+    margin: 30px 2rem 0 2rem;
+    font-size: 16px;
+    color:aliceblue
+    
+    
+}
+
+  .mision h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    letter-spacing: .1rem;
+  }
+  .right-page p {
+    color:rgb(206, 207, 207);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 1.4;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 14px;
+  }
+  .right-page p:first-letter {
+    color: rgb(212, 212, 212);
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 4.4rem;
+    float: left;
+    margin-top: .4rem;
+    margin-right: 1rem;
+    line-height: .7;
+}
+
+.left-page {
+    text-align: center;
+    padding-top: 0rem;
+}
+.left-page img {
+    border-radius: 20px;
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mision{
+    height: 100vh;
+
+    background: linear-gradient( black, rgb(36, 36, 112));
+  }
+  @media screen and (min-width: 900px) {
+    .mision {
+    flex-direction: row;
+    width: 100%;
+    max-width: 1800px;
+    }
+    .mision section {
+      width: 50%;
+    }
+    .left-page {
+      padding-top: 0rem;
+    }
+    .right-page {
+        width: 50rem;
+      padding-top: 6rem;
+      max-height: 60vh;
+      height: 100vh;
+    }
+  }
+
+  .box-equipo{
+    background-color: rgb(36, 36, 112);
+  }
+
+
+
+
+
