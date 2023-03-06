@@ -18,7 +18,6 @@ body{
     height: 63px;
     width: 100%;
     position: fixed;
-    z-index: 100;
     border: solid #FFFFFF;
     border-width: 0 0 0.5px;
 }
@@ -38,7 +37,7 @@ body{
     font-size: 12px;
 }
 .navbar a:hover{
-    background-color: rgb(22, 112, 197);
+    background-color:rgb(59, 156, 247);
 }
 
 .dropdown {
@@ -64,7 +63,7 @@ body{
   }
   .dropdown-content a:hover {
     color: #FFFFFF;
-    background-color: rgb(22, 112, 197);
+    background-color: rgb(59, 156, 247);
   }
 
 .content{  /*esto es una configuracion de los content en general*/
@@ -120,8 +119,8 @@ body{
     display: inline-block;
     padding: 10px 50px;
     color: white;
-    border: 2px solid rgb(22, 112, 197);
-    background-color: rgb(22, 112, 197);
+    border: 2px solid rgb(59, 156, 247);
+    background-color: rgb(59, 156, 247);
 }
 
 .btn:hover{
@@ -140,16 +139,19 @@ body{
 }
 
 .nosotros{ 
-    height: 100vh;
-    background-color: white;
+    height: 30vh;
+    background-color: #fcf2e8;
     /*background: linear-gradient( rgb(255, 255, 255), black);*/
     padding: 78px 0;
 }
 
-.nosotros p{
-    margin: 30px 2rem 0 2rem;
-    font-size: 16px;
-    color:aliceblue
+
+.nosotros h2{
+  font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+    font-size: 24px;
+    color:rgb(90, 90, 90)
+    
     
     
 }
@@ -197,7 +199,6 @@ body{
   .mision{
     height: 100vh;
 
-    background: linear-gradient( black, rgb(36, 36, 112));
   }
   @media screen and (min-width: 900px) {
     .mision {
