@@ -121,15 +121,8 @@ body{
     font-size: 16px;
     text-shadow: 0 0 10px black;
 }
-.nosotros .title{
-    color: white;
-    margin: 2rem;
-    margin-bottom: 80px;
-    font-size: 60px;
-    font-weight: 600;
-    letter-spacing: 1.2px;
-    text-shadow: 0 0 10px black;
-}
+
+
 
 .btn {
     text-decoration: none;
@@ -164,87 +157,62 @@ body{
     /*background: linear-gradient( rgb(255, 255, 255), black);*/
     padding: 78px 0;
 }
-
-
 .nosotros h2{
   font-family: 'Raleway', sans-serif;
     max-width: 100%;
     font-size: 24px;
     color:rgb(90, 90, 90)
-    
-    
-    
 }
-
-  .mision h3 {
-    color: rgb(255, 255, 255);
-    font-family: 'Ibarra Real Nova', serif;
-    text-align: center;
-    font-weight: 400;
-    font-size: 3rem;
-    text-transform: uppercase;
-    margin-bottom: 4rem;
-    letter-spacing: .1rem;
-  }
-  .right-page p {
-    color:rgb(206, 207, 207);
-    margin-left: 1rem;
-    margin-right: 1rem;
-    line-height: 1.4;
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 14px;
-  }
-  .right-page p:first-letter {
-    color: rgb(212, 212, 212);
-    font-family: 'Ibarra Real Nova', serif;
-    font-size: 4.4rem;
-    float: left;
-    margin-top: .4rem;
-    margin-right: 1rem;
-    line-height: .7;
+.nosotros p{
+  font-size: 24px;
+  margin-top: 30px;
+  color: rgb(42, 108, 170);
 }
+.caracteristicas h2{
+  font-family: 'Raleway', sans-serif;
+  margin-top: 2rem;
+  font-size: 3rem;
+  color: rgb(90, 90, 90);
 
-.left-page {
-    text-align: center;
-    padding-top: 0rem;
+  
 }
-.left-page img {
-    border-radius: 20px;
-    max-width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .mision{
-    height: 100vh;
-
-  }
-  @media screen and (min-width: 900px) {
-    .mision {
-    flex-direction: row;
-    width: 100%;
-    max-width: 1800px;
-    }
-    .mision section {
-      width: 50%;
-    }
-    .left-page {
-      padding-top: 0rem;
-    }
-    .right-page {
-        width: 50rem;
-      padding-top: 6rem;
-      max-height: 60vh;
-      height: 100vh;
-    }
+  .box1{
+    display: flex;
+    height: 50vh;
+    background-color: white;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-rows: auto auto ;
   }
 
-  .box-equipo{
-    background-color: rgb(36, 36, 112);
+  .box-description{
+    padding: 2rem 1rem;
+    text-align: start;
+  }
+  .box1 .box-img{
+    display: flex;
+    width: 50%;
+    height: auto;
   }
 
+  .box-description .desc-title{
+    font-family: 'Raleway', sans-serif;
+    padding: 0.5rem 0 1rem 0;
+    font-size: 2rem;
+    margin: 1rem;
+    color: rgb(90, 90, 90);
+  }
+  .box-description .desc-p{
+    font-size: 1rem;
+    padding: 0.5rem 0 1rem 0;
+    margin: 1rem;
+  }
+  .box-description p {
+    color: rgb(90, 90, 90);
+  }
 
+  
 
 
 
