@@ -25,6 +25,15 @@ body{
     display: flex;
     margin: 1rem;
 }
+@media screen and (max-width:520px) {
+  .logo img{
+    width: 70%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+
+}
+}
 
 .navbar{
     display: flex;
@@ -42,8 +51,9 @@ body{
 }
 @media screen and (max-width: 520px){
   .navbar{
-    font-size: 8px;
-    margin-right: 141px;
+    display: flex;
+    font-size: 10px;
+    margin-right: 9rem;
   }
   
 }
@@ -141,6 +151,7 @@ body{
     margin: 0 10px;
 }
 .wave{
+    display: flex;
     position: absolute;
     bottom: 0;
     width: 100%;
