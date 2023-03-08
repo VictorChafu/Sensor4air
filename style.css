@@ -180,7 +180,7 @@ body{
     display: flex;
     height: 50vh;
     background-color: white;
-    margin: 3rem;
+    margin: 1rem;
     margin-bottom: 7rem;
     align-items: center;
     justify-content: space-between;
@@ -199,12 +199,15 @@ body{
   }
   @media screen and (max-width: 520px){
     .caracteristicas h2 {
-      margin-bottom: 3rem;
+      margin-bottom: 1rem;
       font-size: 2rem;
       text-align: center;
     }
   }
 
+  .boxx{
+    margin: 1rem;
+  }
 
   .box1 .box-img{
     width: 100%;
@@ -238,7 +241,7 @@ body{
   }
   @media screen and (max-width: 520px){
     .desc-title {
-      font-size: 1rem;
+      font-size: 1.5rem;
       text-align: center;
     }
   }
@@ -254,7 +257,7 @@ body{
 
   @media screen and (max-width: 520px){ 
     .box-description p {
-      font-size: 0.6rem;
+      font-size: 1rem;
       text-align: center;
       margin-top: -1rem;
     }
