@@ -332,6 +332,118 @@ body{
 }
 
 
+.team h2{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: rgb(90, 90, 90);
+
+}
+.team{
+  display: flex;
+  background-color: #fcf2e8;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+.container-team{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+}
+.equipo{
+  height: 16rem;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.equipo .picture{
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+.equipo .picture img{
+  width: 80%;
+  margin: 1rem;
+  height: auto;
+  border-radius: 50%;
+  transition: all 0.9s ease 0s;
+}
+.equipo:hover .picture img{
+  box-shadow: 0 0 0 14px #949494;
+  transform: scale(0.7);
+}
+.img-kh {
+  max-width: 100%;
+}
+.h3{
+  margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    margin-top: 0;
+}
+.equipo .profesion{
+  display: block;
+  font-size: 15px;
+  color: rgb(42, 108, 170);
+  text-transform: capitalize;
+}
+
+.equipo .social{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #1369ce;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+.equipo:hover .social{
+  bottom: 0;
+}
+.equipo .social li {
+    display: inline-block;
+}
+.equipo .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+
+}
   
 
 
