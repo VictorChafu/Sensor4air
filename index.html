@@ -12,25 +12,36 @@
     <script src="https://kit.fontawesome.com/91397843c7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="head">
-        <div class="logo">
-            <img src="./img/path3587.png" alt="">
-        </div>
-        <div class="navbar">
-            <a href="Inicio">INICIO</a>
-            <div class="dropdown">
-                <a href="Empresas"> SOLUCIONES</a>
+    <nav>
+            
+            <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <a href="#" class="enlace">
+                    <img class="logo" src="./img/path3587.png" alt="" >
+                </a>
+                
+                <ul>
+                    <li><a class="active" href="">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#software">Software</a></li>
+                    <li><a href="#equipo">Equipo</a></li>
+                </ul>
+               
+
+            <!-- <div class="dropdown">
+                <a href=""> SOLUCIONES</a>
+                <i class="fa fa-caret-down"></i>
+
             <div class="dropdown-content">
             <a href="">Empresa1</a>
             <a href="">Empresa2</a>
             <a href="">Empresa3</a>
             </div>
-            </div>
-            <a href="Sobre Nosotros">SOBRE NOSOTROS</a>
-            <a href="Mision">MISION</a>
+            -->
         </div>
-    </div>
-    
+    </nav>    
     <header class="content header">
         <h2 class="title">SenseForAir.</h2>
         <p>Los datos de la calidad del Aire nos importa.</p> <!--Lo que respiras, nos importa-->
@@ -39,8 +50,8 @@
         </div>
     </header>
 
+    <section id="nosotros" class="scroll-to"></section>
     <section class="content nosotros">
-       
         <h2>SenseForAir es la forma de moniterar los parametros del aire que respiras.</h2>
         <p>SenseForAir ayuda a Empresas, pyme, personas a tomar
             medidas con los datos entregados .</p> <!--proteger la salud pública-->
@@ -48,6 +59,7 @@
     </section>
     
     <section class="content caracteristicas"> 
+        <section id="software" class="scroll-to"></section>
         <h2 class="title-caract">¿Qué ofrecemos?</h2>
         <div class="box1 ">
             <div class="boxx">
@@ -79,6 +91,7 @@
     </section>
 
     <section class="team">
+        <section id="equipo" class="scroll-to"></section>
         <h2 class="team-title" >Equipo</h2>
     <div class="container-team">
         <div class="equipo">
@@ -248,6 +261,7 @@
     </section>
 
     -->
+    <script src="./script.js"></script>
 
 </body>
 </html>
