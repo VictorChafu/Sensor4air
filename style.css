@@ -12,8 +12,8 @@ body{
 }
 
 nav{
-  background-color: black;
-  height: 80px;
+  background-color: rgb(5, 5, 5);
+  height: 60px;
   width: 100%;
 
   position: fixed;
@@ -22,10 +22,10 @@ nav{
 .enlace{
   display: flex;
   position: absolute;
-  padding: 20px 16px; /*20 arriba y abajo..... mientras que al logo se le da 40px, para dejarlo centrado en los 80 del nav*/
+  padding: 7px 20px; /*20 arriba y abajo..... mientras que al logo se le da 40px, para dejarlo centrado en los 80 del nav*/
 }
 .logo{
-  height: 40px;
+  height: 35px;
 }
 nav ul{
   float: right;
@@ -33,7 +33,7 @@ nav ul{
 }
 nav ul li{
   display: inline-block; /*se coloca horizontal*/
-  line-height: 80px;
+  line-height: 60px;
   margin: 0 5px;
 }
 nav ul li a{
